@@ -42,7 +42,7 @@ int main() {
 #else */
     // This example will use I2C0 on the default SDA and SCL pins (GP4, GP5 on a Pico)
     
-    busy_wait_us(100000);
+    //busy_wait_us(100000);
     i2c_init(i2c0, 100 * 1000);
     gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
