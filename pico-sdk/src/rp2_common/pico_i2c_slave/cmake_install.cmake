@@ -1,4 +1,4 @@
-# Install script for directory: /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_i2c_slave
+# Install script for directory: /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_i2c_slave
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

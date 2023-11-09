@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iplab/Magnetometer-testbed
+CMAKE_SOURCE_DIR = /home/vboxuser/Magnetometer-testbed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iplab/Magnetometer-testbed
+CMAKE_BINARY_DIR = /home/vboxuser/Magnetometer-testbed
 
 # Include any dependencies generated for this target.
 include CMakeFiles/i2c_bus_scan.dir/depend.make
@@ -72,105 +72,105 @@ include CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj: i2ctest.c
 CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj -MF CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj -c /home/iplab/Magnetometer-testbed/i2ctest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj -MF CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/i2ctest.c.obj -c /home/vboxuser/Magnetometer-testbed/i2ctest.c
 
 CMakeFiles/i2c_bus_scan.dir/i2ctest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/i2ctest.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/i2ctest.c > CMakeFiles/i2c_bus_scan.dir/i2ctest.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/i2ctest.c > CMakeFiles/i2c_bus_scan.dir/i2ctest.c.i
 
 CMakeFiles/i2c_bus_scan.dir/i2ctest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/i2ctest.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/i2ctest.c -o CMakeFiles/i2c_bus_scan.dir/i2ctest.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/i2ctest.c -o CMakeFiles/i2c_bus_scan.dir/i2ctest.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
@@ -183,231 +183,231 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_cha
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj: pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/sem.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/mutex.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj: pico-sdk/src/common/pico_time/time.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_time/time.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_time/time.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/time.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj: pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/datetime.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj: pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/pheap.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj: pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/common/pico_util/queue.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
@@ -420,35 +420,35 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
@@ -461,21 +461,21 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
@@ -487,8 +487,8 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cm
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
@@ -501,35 +501,35 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
@@ -541,8 +541,8 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_sh
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
@@ -554,8 +554,8 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_op
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
@@ -568,35 +568,35 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
@@ -609,21 +609,21 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
@@ -635,8 +635,8 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
@@ -649,72 +649,72 @@ CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s:
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/i2c_bus_scan.dir/flags.make
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/i2c_bus_scan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/iplab/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/vboxuser/Magnetometer-testbed/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 # Object files for target i2c_bus_scan
 i2c_bus_scan_OBJECTS = \
@@ -819,13 +819,13 @@ i2c_bus_scan.elf: CMakeFiles/i2c_bus_scan.dir/pico-sdk/src/rp2_common/hardware_i
 i2c_bus_scan.elf: CMakeFiles/i2c_bus_scan.dir/build.make
 i2c_bus_scan.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 i2c_bus_scan.elf: CMakeFiles/i2c_bus_scan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iplab/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable i2c_bus_scan.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vboxuser/Magnetometer-testbed/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable i2c_bus_scan.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/i2c_bus_scan.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/iplab/Magnetometer-testbed/i2c_bus_scan.elf i2c_bus_scan.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/iplab/Magnetometer-testbed/i2c_bus_scan.elf i2c_bus_scan.bin
-	/usr/bin/arm-none-eabi-objdump -h /home/iplab/Magnetometer-testbed/i2c_bus_scan.elf > i2c_bus_scan.dis
-	/usr/bin/arm-none-eabi-objdump -d /home/iplab/Magnetometer-testbed/i2c_bus_scan.elf >> i2c_bus_scan.dis
-	elf2uf2/elf2uf2 /home/iplab/Magnetometer-testbed/i2c_bus_scan.elf i2c_bus_scan.uf2
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/vboxuser/Magnetometer-testbed/i2c_bus_scan.elf i2c_bus_scan.hex
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/vboxuser/Magnetometer-testbed/i2c_bus_scan.elf i2c_bus_scan.bin
+	/usr/bin/arm-none-eabi-objdump -h /home/vboxuser/Magnetometer-testbed/i2c_bus_scan.elf > i2c_bus_scan.dis
+	/usr/bin/arm-none-eabi-objdump -d /home/vboxuser/Magnetometer-testbed/i2c_bus_scan.elf >> i2c_bus_scan.dis
+	elf2uf2/elf2uf2 /home/vboxuser/Magnetometer-testbed/i2c_bus_scan.elf i2c_bus_scan.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/i2c_bus_scan.dir/build: i2c_bus_scan.elf
@@ -836,6 +836,6 @@ CMakeFiles/i2c_bus_scan.dir/clean:
 .PHONY : CMakeFiles/i2c_bus_scan.dir/clean
 
 CMakeFiles/i2c_bus_scan.dir/depend:
-	cd /home/iplab/Magnetometer-testbed && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iplab/Magnetometer-testbed /home/iplab/Magnetometer-testbed /home/iplab/Magnetometer-testbed /home/iplab/Magnetometer-testbed /home/iplab/Magnetometer-testbed/CMakeFiles/i2c_bus_scan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vboxuser/Magnetometer-testbed && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/Magnetometer-testbed /home/vboxuser/Magnetometer-testbed /home/vboxuser/Magnetometer-testbed /home/vboxuser/Magnetometer-testbed /home/vboxuser/Magnetometer-testbed/CMakeFiles/i2c_bus_scan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/i2c_bus_scan.dir/depend
 

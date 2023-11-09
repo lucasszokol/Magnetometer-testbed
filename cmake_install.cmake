@@ -1,4 +1,4 @@
-# Install script for directory: /home/iplab/Magnetometer-testbed
+# Install script for directory: /home/vboxuser/Magnetometer-testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/iplab/Magnetometer-testbed/pico-sdk/cmake_install.cmake")
+  include("/home/vboxuser/Magnetometer-testbed/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/iplab/Magnetometer-testbed/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vboxuser/Magnetometer-testbed/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

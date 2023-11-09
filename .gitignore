@@ -1,0 +1,11 @@
+generated/
+elf2uf2/
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+i2c_bus_scan.bin
+i2c_bus_scan.dis
+i2c_bus_scan.elf
+i2c_bus_scan.elf.map
+i2c_bus_scan.hex
+i2c_bus_scan.uf2

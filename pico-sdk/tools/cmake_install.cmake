@@ -1,4 +1,4 @@
-# Install script for directory: /home/iplab/Magnetometer-testbed/pico-sdk/tools
+# Install script for directory: /home/vboxuser/Magnetometer-testbed/pico-sdk/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.2.0-36-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/iplab/Magnetometer-testbed/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
+include("/home/vboxuser/Magnetometer-testbed/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

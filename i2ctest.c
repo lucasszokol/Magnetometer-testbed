@@ -33,11 +33,11 @@ bool reserved_addr(uint8_t addr) {
 
 int main() {
     // Enable UART so we can print status output
-    stdio_init_all();
-#if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)
+    stdio_init_all();	
+/*#if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)
 #warning i2c/bus_scan example requires a board with I2C pins
     puts("Default I2C pins were not defined");
-#else
+#else */
     // This example will use I2C0 on the default SDA and SCL pins (GP4, GP5 on a Pico)
     i2c_init(i2c_default, 100 * 1000);
     gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
@@ -73,5 +73,5 @@ int main() {
     }
     printf("Done.\n");
     return 0;
-#endif
+//#endif
 }
