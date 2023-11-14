@@ -70,8 +70,9 @@ int main() {
         if (reserved_addr(addr))
             ret = PICO_ERROR_GENERIC;
         else
-            ret = i2c_read_blocking(i2c, addr, &rxdata, 1, false);
-
+            while (1){
+                ret = i2c_read_blocking(i2c, addr, &rxdata, 1, false);
+            }
         printf(ret < 0 ? "." : "@");
         printf(addr % 16 == 15 ? "\n" : "  ");
     }
