@@ -36,7 +36,7 @@ bool reserved_addr(uint8_t addr) {
 int main() {
     // Enable UART so we can print status output
     stdio_init_all();	
-//#if !defined(i2c_default) || !defined(PICO_DEFAULT_I2C_SDA_PIN) || !defined(PICO_DEFAULT_I2C_SCL_PIN)
+//#if !defined(i2c_default) || !defined(16) || !defined(17)
 //#warning i2c/bus_scan example requires a board with I2C pins
   //  puts("Default I2C pins were not defined");
 //#else 
@@ -44,12 +44,12 @@ int main() {
     i2c_inst_t *i2c = i2c0;
     //busy_wait_us(100000);
     i2c_init(i2c, 100 * 1000);
-    gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
-    gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
+    gpio_set_function(16, GPIO_FUNC_I2C);
+    gpio_set_function(17, GPIO_FUNC_I2C);
+    gpio_pull_up(16);
+    gpio_pull_up(17);
     // Make the I2C pins available to picotool
-    bi_decl(bi_2pins_with_func(PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C));
+    bi_decl(bi_2pins_with_func(16, 17, GPIO_FUNC_I2C));
 
     printf("\nI2C Bus Scan\n");
     printf("   0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F\n");
