@@ -35,7 +35,9 @@ bool reserved_addr(uint8_t addr) {
 
 int main() {
     // Enable UART so we can print status output
+    
     stdio_init_all();	
+    printf("Startup...\n");
 //#if !defined(i2c_default) || !defined(16) || !defined(17)
 //#warning i2c/bus_scan example requires a board with I2C pins
   //  puts("Default I2C pins were not defined");
