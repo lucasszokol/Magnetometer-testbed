@@ -46,8 +46,8 @@ int main() {
     i2c_inst_t *i2c = i2c0;
     //busy_wait_us(100000);
     i2c_init(i2c, 100 * 1000);
-    gpio_set_function(16, GPIO_FUNC_I2C);
-    gpio_set_function(17, GPIO_FUNC_I2C);
+    gpio_set_function(16, GPIO_FUNC_I2C); //gp16
+    gpio_set_function(17, GPIO_FUNC_I2C); //gp 17
     gpio_pull_up(16);
     gpio_pull_up(17);
     // Make the I2C pins available to picotool
